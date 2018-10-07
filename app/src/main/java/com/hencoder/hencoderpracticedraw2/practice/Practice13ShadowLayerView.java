@@ -2,6 +2,7 @@ package com.hencoder.hencoderpracticedraw2.practice;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -23,6 +24,7 @@ public class Practice13ShadowLayerView extends View {
     }
 
     {
+        paint.setShadowLayer(30,0,0, Color.RED);
         // 使用 Paint.setShadowLayer() 设置阴影
     }
 
